@@ -29,7 +29,7 @@ No requiere Node.js, instalación de paquetes, compilación ni servicios de base
 - `dist/daiko-sodi-contact-qr.png`: QR de contacto con el dominio www.daikosodi.com.
 - `PHOTO-SOURCES.md`: procedencia y licencias de las imágenes.
 
-Las imágenes y tipografías se sirven desde el propio proyecto. Los enlaces de WhatsApp, correo, dominio y créditos abren sus destinos externos al utilizarlos. La selección de idioma y tema se guarda localmente en el navegador; no se envían formularios a un servidor.
+Las imágenes y tipografías se sirven desde el propio proyecto. Los enlaces de WhatsApp, correo, dominio y créditos abren sus destinos externos al utilizarlos. El modo claro aparece por defecto; una elección manual de modo oscuro se recuerda en próximas visitas. La selección de idioma y tema se guarda localmente en el navegador; no se envían formularios a un servidor.
 
 ## Ramas
 
