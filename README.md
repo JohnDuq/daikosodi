@@ -40,7 +40,11 @@ Para nuevas tareas, crear una rama `feature/nombre-del-cambio` desde `trunk`, re
 
 ## Publicación
 
-Configurar el proveedor de alojamiento para servir la carpeta `dist`. No hay comando de compilación. El dominio personalizado y el certificado HTTPS se configuran en el alojamiento y en el proveedor DNS; subir este repositorio no configura el dominio ni activa GitHub Pages automáticamente.
+GitHub Pages publica automáticamente la carpeta `dist` cuando se suben cambios a `trunk`, mediante `.github/workflows/pages.yml`. No hay comando de compilación.
+
+Dirección pública: **https://johnduq.github.io/daikosodi/**.
+
+El dominio personalizado www.daikosodi.com se configura por separado en GitHub Pages y en el proveedor DNS.
 
 ## Revisión recomendada
 
