@@ -16,11 +16,11 @@
   }
   toggle.addEventListener('click', () => {
     const theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
-    try { localStorage.setItem('daiko-theme', theme); } catch {}
+    try { localStorage.setItem('daiko-theme-v2', theme); } catch {}
     apply(theme);
   });
   window.addEventListener('storage', event => {
-    if (event.key !== 'daiko-theme') return;
+    if (event.key !== 'daiko-theme-v2') return;
     apply(event.newValue === 'dark' ? 'dark' : 'light');
   });
   document.addEventListener('site:language', updateLabel);
