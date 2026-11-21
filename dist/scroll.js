@@ -5,7 +5,7 @@
   const hero = document.querySelector('.hero-visual');
   const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
   const desktop = window.matchMedia('(min-width: 1001px)');
-  const selector = '.section-heading, .service, .plan, .steps article, .faq > div:first-child, #questions details, #contact > div, footer';
+  const selector = '.section-heading, .service, .steps article, .faq > div:first-child, #questions details, #contact > div, footer';
   let observer;
   let frame = 0;
   let enabled = false;
@@ -15,7 +15,7 @@
     document.querySelectorAll(selector).forEach(element => {
       if (element.classList.contains('scroll-reveal')) return;
       const siblings = [...element.parentElement.children];
-      const stagger = element.matches('.service, .plan, .steps article') ? siblings.indexOf(element) % 3 : 0;
+      const stagger = element.matches('.service, .steps article') ? siblings.indexOf(element) % 3 : 0;
       element.style.setProperty('--reveal-delay', `${stagger * 85}ms`);
       element.classList.add('scroll-reveal');
       if (element.getBoundingClientRect().top < window.innerHeight * 0.94) {

@@ -1,6 +1,6 @@
 # DAIKO SODI
 
-Sitio web bilingüe de servicios contables y tributarios en Colombia, dirigido a inversionistas extranjeros, propietarios y negocios.
+Sitio web bilingüe enfocado en tres servicios: declaración de renta para extranjeros, presentación de impuestos para inversionistas extranjeros y nómina de empleados para empresas radicadas en Colombia.
 
 Dominio previsto: **https://www.daikosodi.com**.
 
@@ -24,7 +24,7 @@ No requiere Node.js, instalación de paquetes, compilación ni servicios de base
 - `dist/scroll.js`: animaciones de entrada y efectos de desplazamiento.
 - `dist/theme.js`: selección y persistencia del tema.
 - `dist/fonts/`: tipografías DM Sans y Libre Caslon Display, con sus licencias OFL.
-- `dist/slide-*`: fotografías e imagen contable de la presentación.
+- `dist/slide-*`: recursos visuales. La presentación usa el logo, la escena contable, la sede DIAN y el mapa; los recursos anteriores se conservan como archivos de referencia.
 - `dist/daiko-sodi-logo.svg`: logo vectorial.
 - `dist/daiko-sodi-contact-qr.png`: QR de contacto con el dominio www.daikosodi.com.
 - `PHOTO-SOURCES.md`: procedencia y licencias de las imágenes.
