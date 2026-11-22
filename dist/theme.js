@@ -3,9 +3,8 @@
   const toggle = document.getElementById('theme-toggle');
   function updateLabel() {
     const dark = root.dataset.theme === 'dark';
-    const es = root.lang === 'es';
-    const label = es ? (dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro')
-      : (dark ? 'Switch to light mode' : 'Switch to dark mode');
+    const labels={en:['Switch to dark mode','Switch to light mode'],es:['Cambiar a modo oscuro','Cambiar a modo claro'],fr:['Passer au mode sombre','Passer au mode clair']};
+    const label=(labels[root.lang]||labels.en)[dark?1:0];
     toggle.setAttribute('aria-label', label);
     toggle.title = label;
   }

@@ -164,3 +164,11 @@ header nav{gap:24px}.header-end>.button{font-size:14px}.button{font-size:14px}.t
 @media(max-width:1000px){.services{grid-template-columns:1fr;gap:30px}.service{max-width:none}.service h3{max-width:650px}.service p{max-width:720px}.service-link{margin-top:0;padding-top:16px}.contact-card{align-items:flex-start}}
 @media(max-width:680px){.hero-copy{padding-top:40px}.hero-copy h1{font-size:48px}.hero-visual{min-height:400px}.section{padding:50px 6%}.about{padding:48px 6%;gap:30px}.eyebrow{font-size:12px}.faq{padding-top:46px}.image-caption>span,.hero-logo-slide>span{font-size:12px}.hero-note{margin-top:22px}#contact{padding:50px 6%}.contact-card{flex-direction:row;gap:20px;align-items:flex-start}.contact-card img{width:150px;height:150px}}
 @media(max-width:400px){.hero-copy h1{font-size:43px}.contact-card{flex-direction:column}.contact-card img{width:180px;height:180px}}
+/* Four focused services and three-language navigation. */
+.services{grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 48px}
+header nav a .nav-size-fr{visibility:hidden;pointer-events:none;grid-area:1/1}
+.languages{width:190px}.header-end{gap:14px}header{grid-template-columns:290px minmax(0,1fr) 395px}
+@media(min-width:1151px) and (max-width:1600px){header{grid-template-columns:245px minmax(0,1fr) 240px;gap:16px}header nav{display:flex;gap:14px;font-size:12px}.header-end>.button{display:none}.header-end{gap:12px}header .brand small{font-size:9px}}
+@media(max-width:1150px){header{grid-template-columns:minmax(0,1fr) auto}header nav{display:none}.header-end>.button{display:none}.header-end{gap:12px}}
+@media(max-width:1000px){.services{grid-template-columns:1fr;gap:30px}}
+@media(max-width:680px){header{height:116px;grid-template-columns:minmax(0,1fr) 32px;grid-template-rows:52px 36px;gap:2px 10px;padding:12px 6%}.brand{grid-column:1;grid-row:1}.header-end{display:contents}.theme-toggle{grid-column:2;grid-row:1}.languages{grid-column:1/-1;grid-row:2;width:auto;justify-content:center;gap:12px}.languages button{font-size:12px;padding:6px;gap:6px}.languages button span{font-size:16px}html{scroll-padding-top:128px}.hero-copy{padding-top:32px}}

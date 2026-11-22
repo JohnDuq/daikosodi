@@ -1,6 +1,6 @@
 # DAIKO SODI
 
-Sitio web bilingüe enfocado en tres servicios: declaración de renta para extranjeros, presentación de impuestos para inversionistas extranjeros y nómina de empleados para empresas radicadas en Colombia.
+Sitio web en inglés, español y francés, enfocado en cuatro servicios: asesoría inicial a extranjeros, declaración de renta para extranjeros, presentación de impuestos para inversionistas extranjeros y nómina de empleados para empresas radicadas en Colombia. Las consultas profesionales se ofrecen en inglés o español.
 
 Dominio previsto: **https://www.daikosodi.com**.
 
@@ -48,7 +48,7 @@ El dominio personalizado www.daikosodi.com se configura por separado en GitHub P
 
 ## Revisión recomendada
 
-Comprobar escritorio y móvil, los dos idiomas, ambos temas, navegación por secciones, la secuencia de imágenes, los enlaces de contacto y la lectura del QR. Las animaciones respetan la preferencia de movimiento reducido.
+Comprobar escritorio y móvil, los tres idiomas, ambos temas, navegación por secciones, la secuencia de imágenes, los enlaces de contacto y la lectura del QR. Las animaciones respetan la preferencia de movimiento reducido.
 
 ## Datos de contacto
 
